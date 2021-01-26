@@ -13,7 +13,7 @@ CRIADOR: @5569985001678
 ╔══════════════════════
 ║     COMANDOS DO BOT
 ╠══════════════════════
-║ 🔵CRIADOR🔵
+║    🔵CRIADOR🔵
 ║╭─────────────────────
 ║🔵 ${prefix}sticker
 ║🔵 ${prefix}stiker
@@ -27,6 +27,9 @@ CRIADOR: @5569985001678
 ║├─────────────────────
 ║🔵 ${prefix}pokemon
 ║POKEMON ALEATÓRIO
+║├─────────────────────
+║🔵 ${prefix}tts
+║AUDIO RESENHA
 ║├─────────────────────
 ║🔵 ${prefix}info
 ║INFORMAÇÕES DO BOT

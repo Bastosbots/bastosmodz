@@ -152,8 +152,8 @@ client.on('group-participants-update', async (anu) => {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '❬❗❭AGUARDE  UM POUCO MANO❬❗❭',
-				success: '️❬ ✔ ❭ PRONTO SEU GAY 🖤',
+				wait: '❬❗❭PROCESSANDO, DÁ UMA SEGURADA❬❗❭',
+				success: '️❬ ✔ ❭ FEITO 🖤',
 				error: {
 					stick: 'Eu falhei :( desculpa',
 					Iv: 'Desculpe, o link está inválido☹️'
@@ -217,7 +217,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `nome do bot : ${me.name}\n*numero do bot* : @${me.jid.split('@')[0]}\n*sigla dos comandos* : ${prefix}\nnumeros bloqueados : ${blocked.length}\no bot esta ativo desde : ${kyun(uptime)}\n`
+					teks = `NOME DO BOT : ${me.name}\n*numero do bot* : @${me.jid.split('@')[0]}\n*sigla dos comandos* : ${prefix}\nnumeros bloqueados : ${blocked.length}\no bot esta ativo desde : ${kyun(uptime)}\n`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -231,7 +231,7 @@ client.on('group-participants-update', async (anu) => {
 					break
                 case 'hidetag':
 					if (!isGroup) return reply(mess.only.group)
-					if (!isOwner) return reply('quem e vc?')
+					if (!isOwner) return reply('QUEM É TU?')
 					var value = body.slice(9)
 					var group = await client.groupMetadata(from)
 					var member = group['participants']
@@ -255,7 +255,7 @@ case 'lofi':
 					var gh = body.slice(9)
 					var gbl1 = gh.split("|")[0];
 					var gbl2 = gh.split("|")[1];
-					if (args.length < 1) return reply('escolha um txt burro')
+					if (args.length < 1) return reply('ESCOLHE UM TXT CARAI')
 					reply(mess.wait)
 					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/textpro?theme=pornhub&text1=${gbl1}&text2=${gbl2}`, {method: 'get'})
 					buffer = await getBuffer(anu.result)
@@ -273,7 +273,7 @@ case 'lofi':
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage('5511973027044@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('PDP PARSA, BUG FOI REPORTADO, SE FOR MENTIRA VAI SER COBRADO🙄✌🏼')
+                    reply('PDP PARÇA, BUG FOI REPORTADO, SE FOR MENTIRA VAI SER COBRADO🙄✌🏼')
                     break
 					case 'marcar':
 					members_id = []
@@ -630,7 +630,7 @@ case 'lofi':
 						mentions(teks, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					} else {
-						mentions(`novo adm fml sem escandalo @${mentioned[0].split('@')[0]} esse mamou o bonde pra ser ADM`, mentioned, true)
+						mentions(`NOVO ADM NESSA PORRA @${mentioned[0].split('@')[0]} VAMO REXPEITAR OU VAI TOMAR PEDRADA`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break	

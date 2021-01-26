@@ -1,7 +1,7 @@
 
 const help = (prefix) => { 
 	return `                 
-<══════════════════════>
+ <══════════════════════>
       BOT BY BASTOS
  <══════════════════════>
 
@@ -13,60 +13,61 @@ __█▲▲▲▲▲█
 __█████████ 
 ____██_____██
 
-┌─────────1.0────────┐
-└─────────1.0────────┘
+┌────────1.0────────┐
+         VERSÃO
+└────────1.0────────┘
 ╔══════════════════════
-║ ᏟϴᎷᎪΝᎠϴՏ ᏞᏆՏͲᎪᎠϴՏ
+║     COMANDOS DO BOT
 ╠══════════════════════
-║   ᎬХᏟᏞႮՏᏆᏙϴ ᏢᎪᎡᎪ ᎪᎠᎷ'Տ
+║   🔴ADMINISTRATIVO🔴
 ║╭─────────────────────
-║├> ${prefix}welcome [0/1]
-║├> ${prefix}bv [0/1]
-║├> ${prefix}bemvindo [0/1]
-║├> ${prefix}boasvindas [0/1]
-║├────> desativar/ativa bv
+║🔴 ${prefix}welcome [0/1]
+║🔴 ${prefix}bv [0/1]
+║🔴 ${prefix}bemvindo [0/1]
+║🔴 ${prefix}boasvindas [0/1]
+║MENSAGEM DE BOAS VINDAS OFF/ON
 ║├─────────────────────
-║├> ${prefix}add 55xxx
-║├> ${prefix}adicionar 55xxx
-║├────> add membro
+║🔴 ${prefix}add 55xxx
+║🔴 ${prefix}adicionar 55xxx
+║ADICIONA MEMBRO
 ║├─────────────────────
-║├> ${prefix}kick @membro
-║├> ${prefix}ban @membro
-║├> ${prefix}remover @membro
-║├────> remover membro
+║🔴 ${prefix}kick @membro
+║🔴 ${prefix}ban @membro
+║🔴 ${prefix}remover @membro
+║REMOVE MEMBRO
 ║├─────────────────────
-║├> ${prefix}promote @membro
-║├> ${prefix}promover @membro
-║├────> promover a ADM
+║🔴 ${prefix}promote @membro
+║🔴 ${prefix}promover @membro
+║PROMOVE MEMBRO
 ║├─────────────────────
-║├> ${prefix}demote @adm
-║├> ${prefix}promover @adm
-║├────> rebaixar a membro
+║🔴 ${prefix}demote @adm
+║🔴 ${prefix}promover @adm
+║REBAIXA MEMBRO
 ║├─────────────────────
-║├> ${prefix}grup abrir/fechar
-║├> ${prefix}group abrir/fechar
-║├> ${prefix}grupo abrir/fechar
-║├────> bem específico ;-;
+║🔴 ${prefix}grup abrir/fechar
+║🔴 ${prefix}group abrir/fechar
+║🔴 ${prefix}grupo abrir/fechar
+║ABRIR/FECHAR GRUPO
 ║├─────────────────────
-║├> ${prefix}setname seu txt
-║├> ${prefix}mudarnome seu txt
-║├────> troca nome do grupo
+║🔴 ${prefix}setname seu txt
+║🔴 ${prefix}mudarnome seu txt
+║TROCAR NOME DO GRUPO
 ║├─────────────────────
-║├> ${prefix}setdesc seu txt
-║├> ${prefix}mudardesc seu txt
+║🔴 ${prefix}setdesc seu txt
+║🔴 ${prefix}mudardesc seu txt
 ║├────> troca descrição
 ║├─────────────────────
-║├> ${prefix}mudarfoto
-║├────> mudar foto do grupo
+║🔴 ${prefix}mudarfoto
+║ALTERAR FOTO DO GRUPO 
 ║├─────────────────────
-║├> ${prefix}marcar
+║🔴 ${prefix}marcar
 ║├────> marcação
 ║├─────────────────────
-║├> ${prefix}marcar2
-║├────> marcação 2
-║├─────────────────────
-║├> ${prefix}marcar3
+║🔴 ${prefix}marcar2
 ║├────> marcação
+║├─────────────────────
+║🔴 ${prefix}marcar3
+║MARCAR MEMBROS
 ║├─────────────────────
 ║├> ᎠϴᏔΝᏞϴᎪᎠ/ᏞᏆΝᏦ
 ║├─────────────────────
@@ -80,20 +81,20 @@ ____██_____██
 ║├> ${prefix}ytvideo link
 ║├> ${prefix}ytbuscar link
 ║├> ${prefix}ytbaixa link
-║├────> baixa vídeo do YouTube
+║
 ║├─────────────────────
-║├>ᎷᏆᎠᏆᎪ/ϴႮͲᎡϴՏ
+║. 🟠CRIADOR DE STICKER🟠
 ║├─────────────────────
-║├> ${prefix}sticker
-║├> ${prefix}stiker
-║├> ${prefix}fig
-║├> ${prefix}figurinha
-║├────> fazer fig cm foto/gif
+║🟠 ${prefix}sticker
+║🟠 ${prefix}stiker
+║🟠 ${prefix}fig
+║🟠 ${prefix}figurinha
+║CRIA STICKER (FOTO/VIDEO/GIF)
 ║├─────────────────────
 ║├> ${prefix}tts seu txt
 ║├> ${prefix}gtts seu txt
 ║├> ${prefix}audio seu txt
-║├────> converter txt em áudio
+║
 ║├─────────────────────
 ║├> ${prefix}toimg marca fig
 ║├> ${prefix}converter marca fig
@@ -112,13 +113,13 @@ ____██_____██
 ║├> ${prefix}adms
 ║├────> lista dos adms
 ║├─────────────────────
-║├> ${prefix}cachorro
-║├> ${prefix}auau
-║├> ${prefix}dog
-║├────> dog fofo aleatório
+║🟡 ${prefix}cachorro
+║🟡 ${prefix}auau
+║🟡 ${prefix}dog
+║DOG ALEATÓRIO
 ║├─────────────────────
-║├> ${prefix}pokemon
-║├────> pokemon aleatório
+║🟢 ${prefix}pokemon
+║POKEMON ALEATÓRIO
 ║├─────────────────────
 ║├> ${prefix}logo3d seu txt
 ║├────> logo cm seu texto
@@ -126,14 +127,14 @@ ____██_____██
 ║├> ${prefix}logoph seu|txt
 ║├────> logo cm seu texto
 ║├─────────────────────
-║├> ${prefix}info
-║├────> informações do bot
+║🔵 ${prefix}info
+║INFORMAÇÕES DO BOT
 ║├─────────────────────
 ║├> ${prefix}listabloq
 ║├────> números bloqueados
 ║├─────────────────────
-║├> ${prefix}lofi
-║├────> foto única de lofi
+║ ${prefix}lofi
+║LOFI ALEATÓRIO
 ║├─────────────────────
 ║├> ${prefix}map 0000-0000 
 ║├> ${prefix} ${prefix}mapa 0000-0000 
@@ -166,10 +167,10 @@ ____██_____██
 ║├─────────────────────
 ║├>  ՏႮᏢϴᎡͲᎬ
 ║├─────────────────────
-║├> ${prefix}bug
-║├> ${prefix}reportar
-║├> ${prefix}reportarbug
-║├────> reportar bug ao criador
+║⚪ ${prefix}bug
+
+
+║REPORTAR BUG AO CRIADOR
 ║├─────────────────────
 ║├> ${prefix}sigla nova sigla
 ║├> ${prefix}setprefix
